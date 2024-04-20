@@ -7,7 +7,7 @@ import google.generativeai as genai
 class AIChat(commands.Cog):
   def __init__(self, bot):
     self.bot = bot
-    genai.configure(api_key="AIzaSyBONHCMWVuB2E4iDiGv4n7qtTq5NIFZ8yk")
+    genai.configure(api_key="")
     self.model = genai.GenerativeModel('gemini-pro',
       safety_settings=[
         {
